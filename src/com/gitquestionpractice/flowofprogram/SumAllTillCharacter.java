@@ -14,7 +14,7 @@ public class SumAllTillCharacter {
                 break;
             }
             try {
-                int num = Integer.parseInt(value);
+                int num = Integer.parseInt(value);  //String to Int
                 sum+=num;
             }catch (NumberFormatException e){
                 System.out.print("Invalid input. ");
